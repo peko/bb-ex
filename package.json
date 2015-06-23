@@ -12,6 +12,7 @@
     "bootstrap": "^3.3.5",
     "express": "^4.13.0",
     "jade": "^1.11.0",
+    "jquery": "^2.1.4",
     "nib": "^1.1.0",
     "passport": "^0.2.2",
     "passport-facebook": "^2.0.0",
