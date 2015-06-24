@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap": "^3.3.5",
     "express": "^4.13.0",
+    "iced-coffee-script": "^1.8.0-e",
     "jade": "^1.11.0",
     "jquery": "^2.1.4",
     "nib": "^1.1.0",
