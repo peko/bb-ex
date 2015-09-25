@@ -1,2 +1,8 @@
-# bb-ex-ws-ps-jd-st-cf
-Bare Bone Express, Web Sockets, Passport, Jade, Stylus and Coffee 
+# bb-ex
+Bare Bone Express with
+
+* Web Sockets 
+* Passport
+* Jade
+* Stylus
+* Iced coffee
