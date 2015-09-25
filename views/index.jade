@@ -3,11 +3,11 @@ extend layout
 block content
   .jumbotron
     .container
-      h1 bb-ex-ws-ps-jd-st-cf
-      p
-        | Barebone Express, Web Sockets, Passport, Jade, Style and Coffee
-      p
-        | Plus Bootstrap &amp; JQuery 
+      h1 #{cfg.projectName}
+      //- p
+      //-   | Barebone Express, Web Sockets, Passport, Jade, Style and Coffee
+      //- p
+      //-   | Plus Bootstrap &amp; JQuery 
   //- .container
   //-   .row
   //-     .col-md-4
@@ -31,3 +31,6 @@ block content
   //-   hr
   //-   footer
   //-     p © Company 2014
+block scripts
+  if req.isAuthenticated()
+    script(src="/js/infographics.js")

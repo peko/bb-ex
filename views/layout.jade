@@ -2,7 +2,7 @@ doctype
 html
 
   head
-    title #{title} - bb+ex+ws+ps+jd+st+cf
+    title #{cfg.projectName} #{title} 
     
     meta(charset='utf-8')     
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
@@ -19,3 +19,4 @@ html
     script(src="/js/jquery.min.js")
     script(src="/js/bootstrap.min.js")
     script(src="/socket.io/socket.io.js")
+    block scripts
