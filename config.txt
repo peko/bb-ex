@@ -1,3 +1,5 @@
+# fill it and save as config.iced
+
 module.exports = 
     
     projectName: "Project name"
