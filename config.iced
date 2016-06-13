@@ -6,6 +6,11 @@ module.exports =
     port       : 3000
     
     auth: 
+
+        github:
+            clientID    : "clientID    "
+            clientSecret: "clientSecret"
+
         facebook:
             clientID    : "clientID    "
             clientSecret: "clientSecret"

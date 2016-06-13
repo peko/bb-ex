@@ -21,6 +21,7 @@
     "nib": "^1.1.0",
     "passport": "^0.3.0",
     "passport-facebook": "^2.0.0",
+    "passport-github": "^1.1.0",
     "passport-odnoklassniki": "^0.1.6",
     "passport-vkontakte": "^0.4.0",
     "pug": "^2.0.0-beta3",
