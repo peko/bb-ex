@@ -1,12 +1,12 @@
 {
-  "name": "ex-ws-ps",
+  "name": "bb-ex",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.coffee",
+  "description": "bareboned express",
+  "main": "app.iced",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "peko",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.5",

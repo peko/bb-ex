@@ -6,7 +6,7 @@ passport = require "passport"
 
 router = express.Router()
 
-router.get "/infographics", (req, res)->
+router.get "/method1", (req, res)->
 
     return res.send "{err: 1}" unless req.isAuthenticated()
     res.send JSON.stringify req.user

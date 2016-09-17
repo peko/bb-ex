@@ -6,7 +6,10 @@ nib     = require "nib"
 http    = require "http"
 redis   = require "redis"
 
-cfg     = require "./config"
+try cfg = require "./config"
+catch err
+    console.error "Copy config.txt to config.iced"
+    process.exit 1
 
 passport     = require "passport" 
 cookieParser = require "cookie-parser"
